@@ -26,7 +26,16 @@ nav ul {
   padding: 0 8px;
 }
 .container {
-  min-height: 80vh;
+  min-height: 67.4vh;
+  background-color: black;
+  color: white;
+  font-family: "Oxygen", sans-serif;
+  display: flex;
+  margin: 23px auto;
+  width: 65%;
+  border-radius: 12px;
+  padding: 34px;
+  background: url("bg.jpeg") no-repeat;
 }
 .bottom {
   position: sticky;
@@ -45,5 +54,27 @@ nav ul {
 }
 #progressBar {
   width: 80vw;
+  cursor: pointer;
+}
+.songItem {
+  height: 50px;
+  display: flex;
+  background-color: white;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  border-radius: 34px;
+}
+.songItem img {
+  width: 43px;
+  height: 43px;
+  margin: 0 23px;
+  border-radius: 50%;
+}
+.timestamp {
+  margin: 0 23px;
+}
+.timestamp i {
   cursor: pointer;
 }
