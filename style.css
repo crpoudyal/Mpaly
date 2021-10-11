@@ -25,3 +25,25 @@ nav ul {
   width: 60px;
   padding: 0 8px;
 }
+.container {
+  min-height: 80vh;
+}
+.bottom {
+  position: sticky;
+  height: 120px;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icons {
+  margin-top: 15px;
+  cursor: pointer;
+}
+#progressBar {
+  width: 80vw;
+  cursor: pointer;
+}
