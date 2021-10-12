@@ -78,3 +78,13 @@ nav ul {
 .timestamp i {
   cursor: pointer;
 }
+.songInfo {
+  position: absolute;
+  left: 10vw;
+  font-family: "Ephesis", sans-serif;
+  font-size: 2rem;
+}
+.songInfo img {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
