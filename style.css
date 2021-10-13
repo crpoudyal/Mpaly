@@ -35,7 +35,7 @@ nav ul {
   width: 65%;
   border-radius: 12px;
   padding: 34px;
-  background: url("bg.jpeg") no-repeat;
+  background: url("images/bg.jpeg") no-repeat;
 }
 .bottom {
   position: sticky;
